@@ -1,5 +1,14 @@
 import streamlit as st
 
+st.markdown("""
+<style>
+.block-container { padding-top: 2rem; }
+h1, h2 { letter-spacing: 0.5px; }
+[data-testid="stSidebar"] { width: 280px; }
+</style>
+""", unsafe_allow_html=True)
+
+
 st.set_page_config(
     page_title="Ashish Kumar Tripathi - CV",
     page_icon="📄",
@@ -81,3 +90,4 @@ To establish a strong professional footprint in the field of
 **Artificial Intelligence and Machine Learning**
 through continuous academic excellence and practical software development.
 """)
+
